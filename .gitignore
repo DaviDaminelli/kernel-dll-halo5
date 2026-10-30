@@ -1,0 +1,12 @@
+# Build artifacts - kernelx.dll is published via GitHub Releases
+*.obj
+*.exp
+*.lib
+*.pdb
+*.ilk
+
+# Proprietary Microsoft binary - NEVER commit this.
+# Users must supply their own copy from an XDK/GDK they have access to.
+xg.dll
+xg_x.dll
+kernelx.dll
